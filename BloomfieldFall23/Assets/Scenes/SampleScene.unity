@@ -757,23 +757,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5417149a26ec2c4ca20bb75c631edc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 60
-  currentTime: {fileID: 1340868632}
+  timer: 0
+  currentTime: {fileID: 0}
   enemyTimer: 0
   spawnInterval: 2
   timeLimit: 60
-  myPlayers:
-  - {fileID: 1129270065281791290}
-  - {fileID: 1618729015}
+  myPlayers: []
   myScore: []
-  scoreText:
-  - {fileID: 1225109000}
-  - {fileID: 1901972811}
-  myEnemy: {fileID: 5740333966794887623, guid: 6d3eca9ce4ec69141b438d4538bbfe24, type: 3}
-  myXbounds: {x: -6.5, y: 6.5}
-  myYbounds: {x: -4.75, y: 4.75}
+  scoreText: []
+  myEnemy: {fileID: 0}
+  myXbounds: {x: 0, y: 0}
+  myYbounds: {x: 0, y: 0}
   startText: {fileID: 848005281}
-  gameOver: {fileID: 1508117765}
+  gameOver: {fileID: 848005279}
   finalScore: {fileID: 5764006}
   winner: {fileID: 12953998}
 --- !u!4 &581405660
@@ -1281,7 +1277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1508117766
 RectTransform:
   m_ObjectHideFlags: 0
